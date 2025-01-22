@@ -1,157 +1,142 @@
-# Curriculum Vitae Online
+**Currículum Vitae Online**
 
-Sejam todos bem vindos ao projeto de Curriculum Vitae Online oferecidos pela Digital Innovation One.
+¡Sean todos bienvenidos al proyecto de **Currículum Vitae Online** ofrecido por Algoritmos-uy!
 
-O projeto tem como objetivo montar nossa primeira página web que será a replica de um CV Online, utilizando conceitos de html e Github Pages. Ao  fim teremos nosso currículo pronto e disponível de forma estática.
+El objetivo del proyecto es crear nuestra primera página web, que será una réplica de un CV en línea, utilizando conceptos de HTML y GitHub Pages. Al finalizar, tendremos nuestro currículum listo y disponible de forma estática.
 
-Ele também pode ser utilizado como currículo ‘vitae’ e portfolio pessoal.
+Este proyecto también puede utilizarse como currículum vitae y portafolio personal.
 
+**Fork del proyecto:**  
+[https://github.com/Algoritmos-uy](https://github.com/Algoritmos-uy/cv-on-line) 
 
-**Fork do projeto:** 
+**Referencias:**  
+- W3C: [https://www.w3schools.com/howto/howto_website_create_resume.asp](https://www.w3schools.com/howto/howto_website_create_resume.asp)
 
-https://github.com/digitalinnovationone/cv
+---
 
-**Dúvidas:**
-https://github.com/digitalinnovationone/cv/issues
+### ✅ Desarrollando Tu Currículum Vitae Online:
 
-**Referências:**
+Hay varias formas de iniciar el desarrollo de tu proyecto, como:
 
-W3C: https://www.w3schools.com/howto/howto_website_create_resume.asp
+1. **Descargar la carpeta desde GitHub:**  
+   Puedes descargar la carpeta desde GitHub haciendo clic en el botón "Code" y luego en "Download ZIP" para obtener una copia comprimida del proyecto. Simplemente extrae los archivos y comienza a trabajar.
+   
+2. **Hacer un fork del proyecto:**  
+   Al hacer un fork, creas una copia del proyecto en tu propio repositorio de GitHub. Para ello, haz clic en el botón "Fork" en la página del proyecto. Luego, puedes clonar el repositorio de tu GitHub localmente con el comando:  
+   `git clone <URL de tu fork>`
 
-### ✅ Desenvolvendo Seu Curriculum Vitae Online:
+3. **Crear tu CV desde cero:**  
+   Tienes total libertad para desarrollar tu CV online desde el principio.
 
-Há várias formas de iniciar o desenvolvimento do seu projeto, como:
+#### Ahora, ¡Manos a la obra!
 
-- Fazer o Download da Pasta peLo GitHub: Faça o download da pasta pelo GitHub: você pode clicar no botão "Code" e depois em "Download ZIP"  para baixar uma cópia do projeto compactado em um arquivo ZIP. Basta  extrair os arquivos e começar a trabalhar.
-- Você pode fazer o fork do projeto: Ao fazer o fork, você cria uma  cópia do projeto em seu próprio repositório do GitHub. Para isso, basta  clicar no botão "Fork" na página do projeto. Em seguida, você pode  clonar o repositório do seu próprio GitHub em sua máquina local,  utilizando o comando `git clone <url do seu fork>`.
-- Por fim, você pode e tem toda a liberdade para criar do ZERO seu CV online;
+1. Comencemos haciendo el fork de nuestro proyecto desde:  
+   [(https://github.com/Algoritmos-uy](https://github.com/Algoritmos-uy/cv-on-line))  
 
-**Agora Vamos Lá!**
+2. Una vez creado el proyecto, podemos usar GitHub como IDE pulsando `.` en la página inicial del proyecto.  
 
-1. Vamos começar fazendo o Fork do nosso projeto em: https://github.com/falvojr/cv
-2. Ao criar o projeto podemos utilizar o próprio GitHub como IDE utilizando o (.) na página inicial do projeto.
-3. Github Pages para visualizamos e compartilhamos nosso CV online com todos.
+3. Utiliza GitHub Pages para visualizar y compartir tu CV online con todos.
 
-**Dicas:**
+---
 
-Para visualizar o resultado do seu projeto no navegador, você pode  utilizar o Live Server, uma extensão do VSCode que permite abrir o  projeto no navegador e atualiza-lo automaticamente a cada alteração no  código ou pode utilizar o Github Pages.
+### **Consejos:**
 
-Lembre-se de incluir comentários no seu código para facilitar a compreensão e a manutenção futura do projeto. Boa sorte!
+- Para ver el resultado del proyecto en el navegador, puedes usar **Live Server**, una extensión de VSCode que abre el proyecto en el navegador y lo actualiza automáticamente con cada cambio, o puedes usar GitHub Pages.  
+- Incluye comentarios en tu código para facilitar su comprensión y mantenimiento futuro. ¡Buena suerte!
 
-### 📑 CONCEITOS UTILIZADOS
+---
 
-### 🔴 HTML:
+### 📑 **Conceptos Utilizados**
 
-Algumas das principais tags e conceitos que utilizamos para o desenvolvimento desse projeto foram:
+#### 🔴 **HTML:**
 
-- `<!DOCTYPE html>` que é uma declaração que define o tipo de documento como HTML5.
+Algunas de las principales etiquetas y conceptos utilizados en este proyecto son:
 
-- `<html>` é a tag raiz que contém todo o conteúdo da página.
+- `<!DOCTYPE html>`: Define el tipo de documento como HTML5.
+- `<html>`: Es la etiqueta raíz que contiene todo el contenido de la página.
+- `<head>`: Contiene la información de encabezado de la página, como el título, conjunto de caracteres, enlaces a archivos de estilo y fuentes externas.
+- `<meta charset="UTF-8">`: Define el conjunto de caracteres como UTF-8.
+- `<title>`: Define el título de la página, generalmente mostrado en la pestaña del navegador.
+- `<link>`: Importa archivos de estilo externos y fuentes web.
+- `<body>`: Contiene todo el contenido visible de la página (texto, imágenes, elementos interactivos).
+- `<nav>`: Define una sección de navegación, como un menú.
+- `<div>`: Una etiqueta genérica para agrupar elementos y crear contenedores de diseño.
+- `<h2>`: Define un encabezado de segundo nivel.
+- `<p>`: Define un párrafo de texto.
+- `<i>`: Texto en cursiva.
+- `<hr>`: Una línea horizontal.
+- `<b>`: Texto en negrita.
+- `id`: Define un identificador único para un elemento.
+- `<br>`: Inserta un salto de línea.
+- `<span>`: Define un pequeño fragmento de texto.
+- `fa`: Clase de íconos de Font Awesome.
+- `w3`: Clase de estilo de W3CSS.
+- `style.css`: Archivo CSS externo.
+- `<footer>`: Sección de pie de página.
 
-- `<head>` é onde as informações de cabeçalho da  página são colocadas, como o título da página, o conjunto de caracteres, links para arquivos de estilo e fontes externas.
+---
 
-- `<meta charset="UTF-8">` define o conjunto de caracteres usado na página como UTF-8, que é uma codificação de caracteres amplamente utilizada.
+#### 🔴 **CSS:**
 
-- `<title>` define o título da página, que geralmente é exibido na guia do navegador.
+- **Clases utilizadas:**
+  - `w3-twothird`: Elemento con ancho de dos tercios del contenedor padre.
+  - `w3-container`: Contenedor con ancho máximo de 1170 px, centrado horizontalmente.
+  - `w3-center`: Centra el contenido horizontalmente.
+  - `w3-card`: Agrega sombra al elemento simulando una tarjeta.
+  - `fa`: Aplica estilos de los íconos de Font Awesome.
 
-- `<link>` é usado para importar arquivos de estilo externos e fontes da web.
+- **Propiedades CSS empleadas:**
+  - `color`: Define el color del texto.
+  - `background-color`: Define el color de fondo.
+  - `font-size`: Tamaño de la fuente.
+  - `padding`: Relleno interno del elemento.
+  - `margin`: Margen externo.
+  - `text-align`: Alineación horizontal del texto.
+  - `box-shadow`: Sombra alrededor del elemento.
+  - `display`: Define el tipo de visualización (block, inline, flex, etc.).
+  - `border-radius`: Redondea las esquinas.
 
-- `<body>` é onde todo o conteúdo visível da página é colocado, como texto, imagens e elementos interativos.
+---
 
-- `<nav>` define uma seção de navegação, como um menu de navegação.
+#### **Otros conceptos CSS:**
 
-- `<div>` é uma tag genérica usada para agrupar outros elementos e criar contêineres de layout.
+- **Selectores de ID y Clase:**  
+  - ID: Se indica con `#` seguido del nombre.  
+  - Clase: Se indica con `.` seguido del nombre.
 
-- `<h2>` - Define um cabeçalho de segundo nível.
+- **Font Awesome:** Biblioteca de íconos vectoriales personalizables con CSS.
+- **Box Model:** Elementos compuestos por contenido, relleno, borde y margen.
+- **Responsividad:** Adapta el diseño a diferentes tamaños de pantalla.
 
-- `<p>` - Define um parágrafo de texto.
+---
 
-- `<i>` - Define um elemento de texto em itálico.
+### 📚 **Diccionario Frontend**
 
-- `<hr>` - Define uma linha horizontal.
+#### 🔴 **HTML:**
+- `<!DOCTYPE html>`: Declara el documento como HTML.
+- `<html>`: Inicia el documento HTML.
+- `<head>`: Encabezado.
+- `<meta>`: Define UTF-8.
+- `<title>`: Título de la página.
+- `<link>`: Importa estilo externo.
+- `<body>`: Cuerpo del documento.
+- `<nav>`: Barra de navegación.
+- `<div>`: Contenedor genérico.
+- `<img>`: Imagen.
+- `<button>`: Botón clicable.
 
-- `<b>` - Define um texto em negrito.
+---
 
-- `id` - Define um identificador exclusivo para um elemento.
+#### 🔴 **CI/CD:**
 
-- `<br>` - Define uma quebra de linha.
+**CI (Integración Continua)**: Automatiza la integración del código en un repositorio compartido.  
+**CD (Entrega Continua):** Automatiza la entrega del software en producción tras pasar pruebas.  
 
-- `<span>` - Define um pequeno trecho de texto.
+---
 
-- `fa` - É a classe de ícones do Font Awesome.
+#### 🔴 **GitHub Pages:**
 
-- `w3` - É a classe de estilo do W3CSS.
-
-- `style.css` - É o nome do arquivo CSS externo.
-
-- `<footer>` define a seção de rodapé da página.
-
-
-### 🔴 CSS:
-- w3-twothird: define um elemento com largura de dois terços do contêiner pai.
-- w3-container: define um contêiner com largura máxima de 1170 pixels e centralizado horizontalmente.
-- w3-center: centraliza o conteúdo horizontalmente dentro de um elemento.
-- w3-card: cria um elemento com sombra que se assemelha a um cartão.
-- fa: aplica estilos aos ícones da fonte Awesome.
-
-Propriedades CSS utilizadas no exemplo:
-
-- color: define a cor do texto.
-- background-color: define a cor de fundo do elemento.
-- font-size: define o tamanho da fonte.
-- padding: define o preenchimento interno do elemento.
-- margin: define a margem externa do elemento.
-- text-align: define o alinhamento horizontal do texto.
-- box-shadow: cria uma sombra ao redor do elemento.
-- display: define o tipo de exibição do elemento (por exemplo, block, inline, flex, etc).
-- border-radius: define o raio dos cantos do elemento.
-
-Outros conceitos CSS:
-
-- Definição Seletores Id e Class: O seletor de ID é indicado pelo caractere '#' seguido pelo nome do ID do elemento HTML. O seletor de classe é indicado pelo caractere '.' seguido pelo nome da classe do elemento HTML.
-- Font Awesome: é uma biblioteca de ícones vetoriais que podem ser personalizados com CSS. É comumente usado para adicionar ícones a sites e aplicativos da web.
-- Box model: é um conceito fundamental do CSS que define como um elemento HTML é renderizado. Cada elemento é composto por conteúdo, preenchimento, borda e margem, que juntos formam o "modelo de caixa" do elemento.
-- Responsividade: é a capacidade de um site ou aplicativo da web de se adaptar a diferentes tamanhos de tela e dispositivos, proporcionando uma experiência de usuário consistente em todos eles. No exemplo, a classe .w3-twothird é usada para definir a largura de um elemento em dois terços do contêiner pai, tornando-o responsivo em telas de diferentes tamanhos.
-
-
-### 📚 DICIONÁRIO FRONTEND
-
-🔴 HTML:
-
-- `<!DOCTYPE html>` - Define o tipo de documento como HTML
-- `<html>` - Inicia o documento HTML
-- `<head>` - Início do cabeçalho
-- `<meta>` - Define o conjunto de caracteres como UTF-8
-- `<title>` - Define o título da página
-- `<link>` - Importa o arquivo de estilo externo
-- `<body>` - Define o corpo do documento HTML
-- `<nav>` - Define a barra de navegação da página
-- `<div>` - Cria um elemento de divisão genérico
-- `<img>` - Define uma imagem a ser exibida
-- `<button>` - Cria um botão clicável
-
-### 🔴 CI / CD - CI (Integração Contínua) e CD (Entrega Contínua)
-
-O CI e CD são duas práticas essenciais para a área de desenvolvimento de software, pois, eles tem como objetivo facilitar e agilizar o processo de entrega de software de qualidade.
-
-CI é um processo em que desenvolvedores integram o código que estão trabalhando com frequência em um repositório compartilhado, o que permite que o código seja testado automaticamente assim que é integrado. Isso ajuda a garantir que o código funcione corretamente e que não haja conflitos com outras partes do sistema.
-
-Já o CD é um processo que visa automatizar a entrega do software em produção de forma contínua, assim que o código passa por todos os testes necessários. Isso permite que as alterações no software sejam entregues rapidamente e de forma confiável.
-
-Em resumo, CI e CD são práticas que ajudam a garantir a qualidade do software e a agilizar o processo de entrega, tornando-o mais confiável e eficiente.
-
-### 🔴 Github Pages
-
-O GitHub Pages é um serviço de hospedagem de sites estáticos oferecido pelo GitHub. Ele permite que você crie um site estático usando HTML, CSS e JavaScript e hospede-o diretamente em um repositório do GitHub.
-
-O GitHub Pages é frequentemente usado por desenvolvedores e equipes de desenvolvimento para hospedar documentação de projetos, sites pessoais, blogs e portfólios. Ele é fácil de configurar e pode ser usado gratuitamente, com opções para personalizar o domínio do site e usar temas predefinidos para criar rapidamente um site atraente.
-
-Além disso, o GitHub Pages também suporta Jekyll, um gerador de sites estáticos que permite que você crie um site mais complexo com menos esforço, oferecendo recursos como geração automática de páginas e layouts.
-
-
-**Saiba mais sobre HTML, Emojis:**
-
-Sobre html: https://developer.mozilla.org/pt-BR/docs/Web/HTML
-
-Emojis: https://www.w3schools.com/charsets/ref_emoji.asp
-
+Servicio para alojar sitios estáticos, ideal para documentación, blogs y portafolios.  
+Más información:  
+- HTML: [https://developer.mozilla.org/pt-BR/docs/Web/HTML](https://developer.mozilla.org/ES/docs/Web/HTML)  
+- Emojis: [https://www.w3schools.com/charsets/ref_emoji.asp](https://www.w3schools.com/charsets/ref_emoji.asp)
